@@ -1,4 +1,3 @@
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -8,10 +7,11 @@ export default {
         'myka-red': '#FF0000',
         'myka-black': '#000000',
         'myka-gray': '#888888',
+        'myka-dark': '#0f0f0f',
       },
       fontFamily: {
-        'archivo': ['"Archivo Black"', 'sans-serif'],
-        'inter': ['Inter', 'sans-serif'],
+        'mont': ['Montserrat', 'sans-serif'],
+        'mono': ['Space Mono', 'monospace'],
       },
     },
   },
